@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/arthur/competition_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/arthur/six_dof_ws/src/my_controller/include/**",
+        "/home/arthur/six_dof_ws/src/using_markers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

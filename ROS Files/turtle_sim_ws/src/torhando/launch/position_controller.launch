@@ -1,0 +1,6 @@
+<launch>
+    <node name="mb" pkg="torhando" type="position_controller_v2.py">
+        <param name="linear_max" value="2"/>
+        <param name="linear_pid" value="p:0.1 i:0.05 d:0.05"/>
+    </node>
+</launch>

@@ -1,0 +1,2 @@
+kobuki_description:kobuki_gazebo_plugins:kobuki_safety_controller:torhando:turtlebot_description
+-DCATKIN_DEVEL_PREFIX=/home/arthur/turtle_sim_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arthur/turtle_sim_ws/install -G Unix Makefiles

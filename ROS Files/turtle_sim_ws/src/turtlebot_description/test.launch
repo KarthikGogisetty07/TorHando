@@ -1,0 +1,15 @@
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find turtlebot_description)/robots/kobuki_hexagons_kinect.urdf.xacro'"/>
+
+  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui"/>
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="publish_frequency" type="double" value="30.0"/>
+    <!--param name="tf_prefix" type="string" value="" /-->
+  </node>
+
+  <node name="spawn_turtlebot_model" pkg="gazebo_ros" type="spawn_model"
+        args="-unpause 
+              -urdf 
+              -param robot_description 
+              -model kobuki"/>
+</launch>
