@@ -1,5 +1,7 @@
-Ive uploaded the workspace.
+# disclaimer:
+I've written this all this in melodic. So you mayyy have to make some changes when running on noetic.
 
+Ive uploaded the workspace.
 Inside you'll find some packages
 
 # to Run the square thingy:
