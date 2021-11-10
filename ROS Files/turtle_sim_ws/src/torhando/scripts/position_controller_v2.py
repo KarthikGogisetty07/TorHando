@@ -126,14 +126,17 @@ class position_controller:
         else:
             return w
             
-
 o = position_controller('kobuki_velocity_controller', '/cmd_vel', '/odom')
 
 # add trajectory here 
 o.goto(1.5,1.5)
-o.goto(1.5,-1.5)
-o.goto(-1.5,-1.5)
-o.goto(-1.5, 1.5)
-o.goto(1.5,1.5)
+
+for i in range(10):
+    o.goto(1.5,-1.5)
+    o.goto(-1.5,-1.5)
+    o.goto(-1.5, 1.5)
+    o.goto(1.5,1.5)
+
+o.goto(0,0)
 
 rospy.spin()

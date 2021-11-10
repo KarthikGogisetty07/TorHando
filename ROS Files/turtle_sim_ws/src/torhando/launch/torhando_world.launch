@@ -62,5 +62,5 @@
   </node>
 
   <!-- launch rviz -->
-  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find torhando)/rviz/default.rviz"/> -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find torhando)/rviz/default.rviz"/>
 </launch>
