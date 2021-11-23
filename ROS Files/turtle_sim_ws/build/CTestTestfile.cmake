@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("torhando")
+subdirs("turtlebot_navigation")
 subdirs("kobuki_gazebo_plugins")
 subdirs("kobuki_description")
 subdirs("turtlebot_description")

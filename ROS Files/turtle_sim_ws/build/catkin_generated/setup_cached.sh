@@ -7,6 +7,7 @@
 # new environment variables
 export TURTLEBOT_GAZEBO_MAP_FILE='/maps/playground.yaml'
 export TURTLEBOT_GAZEBO_WORLD_FILE='/worlds/playground.world'
+export TURTLEBOT_MAP_FILE='/home/arthur/turtle_sim_ws/src/turtlebot_navigation/maps/willow-2010-02-18-0.10.yaml'
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/arthur/turtle_sim_ws/devel:$CMAKE_PREFIX_PATH"

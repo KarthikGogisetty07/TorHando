@@ -1049,6 +1049,12 @@ turtlebot_gazebo_BINARY_DIR:STATIC=/home/arthur/turtle_sim_ws/build/turtlebot_ga
 //Value Computed by CMake
 turtlebot_gazebo_SOURCE_DIR:STATIC=/home/arthur/turtle_sim_ws/src/turtlebot_gazebo
 
+//Value Computed by CMake
+turtlebot_navigation_BINARY_DIR:STATIC=/home/arthur/turtle_sim_ws/build/turtlebot_navigation
+
+//Value Computed by CMake
+turtlebot_navigation_SOURCE_DIR:STATIC=/home/arthur/turtle_sim_ws/src/turtlebot_navigation
+
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
 
@@ -1385,7 +1391,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

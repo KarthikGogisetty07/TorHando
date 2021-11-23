@@ -1,11 +1,11 @@
 <launch>
   <arg name="gui" default="true"/>
-  <arg name="x" default="0"/>
-  <arg name="y" default="0"/>
+  <arg name="x" default="11.5"/>
+  <arg name="y" default="-6.2"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
-  <arg name="yaw" default="0"/>
+  <arg name="yaw" default="3.14"/>
 
   <arg name="base"       value="kobuki"/> 
   <arg name="stacks"     value="hexagons"/> 
@@ -16,7 +16,7 @@
     <arg name="gui" value="$(arg gui)"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
-    <!-- <arg name="world_name" value="$(find turtlebot_gazebo)/worlds/world1.world"/> -->
+    <arg name="world_name" value="$(find torhando)/worlds/world1.world"/>
   </include>
 
   <!-- set robot description -->
