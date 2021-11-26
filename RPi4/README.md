@@ -1,4 +1,4 @@
-## Telegram Bot to operate end effector-
+## Telegram Bot to operate the End-effector-
 
 #### Introduction:
 
