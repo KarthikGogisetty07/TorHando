@@ -1,11 +1,11 @@
 # TorHando
 #### The Project TorHando is an Idea to make an Autonomous mobile Robot which has the
-capabilities of self-Navigation and ability to work in an environments where humans inter￾actions are minimal. Our objective is to make sure this project is a start to an ambiguous
+capabilities of self-Navigation and ability to work in an environments where humans interactions are minimal. Our objective is to make sure this project is a start to an ambiguous
  dream of true automation.
- We will be using the existing Turtle Bot along side other attributes to achieve two Im￾portant objectives -
+ We will be using the existing Turtle Bot along side other attributes to achieve two Important objectives -
 ### Go To Goal :
-#### To have ability to Navigate in the Local Geography and reach the Pro￾jected target Location.
+#### To have ability to Navigate in the Local Geography and reach the Projected target Location.
 ### Addition of Manipulator : 
-#### Ability to Manipulate and utilise an Manipulator to per￾form required tasks.
+#### Ability to Manipulate and utilise an Manipulator to perform required tasks.
 ##### The Primary objective is to reach level two autonomy using existing hardware and later
  develop with the results we gained and improve up to level four autonomy theoretically. 
