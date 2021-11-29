@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<launch>
-    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
-    <node name="controller" pkg="experiment_04" type="controller_with_topic.py" output="screen"/>
-</launch>
