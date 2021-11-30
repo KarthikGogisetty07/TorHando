@@ -57,9 +57,7 @@ We need some sort of mechanism to connect the gripper to the manipulator.Refer t
 Another important part is the servo motor for the gripper to function properly.
 Refer to pic 8.
 ## Images
-<p align="center" width="100%">
-    <img width="33%" src="(https://user-images.githubusercontent.com/93376324/143675529-d645806d-ecbf-4131-8293-00b3820c01b9.png)">
-</p>
+
 
 
 Pic 1 ![Screenshot (23)](https://user-images.githubusercontent.com/93376324/143675529-d645806d-ecbf-4131-8293-00b3820c01b9.png)
