@@ -1,5 +1,5 @@
  
-# Gripper Construction
+# Project Torhando- Gripper Construction
 
 A gripper is a device that enables the robot to pick and 
 hold an object to be manipulated.We are able to use gripper for 
