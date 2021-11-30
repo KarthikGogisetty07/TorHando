@@ -6,8 +6,8 @@
 #### Ability to Manipulate and utilise an Manipulator to perform required tasks.
 ##### The Primary objective is to reach level two autonomy using existing hardware and later develop with the results we gained and improve up to level four autonomy theoretically. 
 
-# Abstract 
-Torhando is an Autonomous Mobile & Manipulating
+### Abstract 
+##### Torhando is an Autonomous Mobile & Manipulating
 Robot that is capable of Level 2 Autonomy in end effector
 manipulation and Both Level 2 and Level 4 Autonomy in
 Mobility. its primary Hardware consists of Turtlebot 2 and a
@@ -21,4 +21,3 @@ end effector. Which is a gripper, by sending Instructions from a
 mobile phone and operated on a Rpi4. The Torhando is still in 
 its prototype stage with a lot of room to improve and adapt. 
 
-###Key words: Level 2 and Level 4 Autonomy, Autonomous Mobile & Manipulating Robot, Mapping, Planning Path, Obstacle Avoiding, 
