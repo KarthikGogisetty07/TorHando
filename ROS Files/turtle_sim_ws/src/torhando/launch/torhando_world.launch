@@ -1,19 +1,19 @@
 <launch>
-  <arg name="gui" default="true"/>
+  <!-- <arg name="gui" default="true"/>
   <arg name="x" default="11.5"/>
   <arg name="y" default="-6.2"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
-  <arg name="yaw" default="3.14"/>
+  <arg name="yaw" default="3.14"/> -->
 
-  <!-- <arg name="gui" default="true"/>
+  <arg name="gui" default="true"/>
   <arg name="x" default="0"/>
   <arg name="y" default="0"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
-  <arg name="yaw" default="0"/> -->
+  <arg name="yaw" default="0"/>
 
   <arg name="base"       value="kobuki"/> 
   <arg name="stacks"     value="hexagons"/> 
@@ -24,7 +24,7 @@
     <arg name="gui" value="$(arg gui)"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
-    <arg name="world_name" value="$(find torhando)/worlds/world1.world"/>
+    <!-- <arg name="world_name" value="$(find torhando)/worlds/world1.world"/> -->
   </include>
 
   <!-- set robot description -->
@@ -69,6 +69,23 @@
     <remap from="scan" to="/scan"/>
   </node>
 
+  <node pkg="torhando" type="position_controller_v2.py" name="position_controller"/>
   <!-- launch rviz -->
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find torhando)/rviz/default.rviz"/>
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find torhando)/rviz/default.rviz"/> -->
+
+  <!-- -======================================================================================= -->
+  <!-- <rosparam file="$(find torhando)/param/gazebo_ros_control.yaml" command="load"/>
+  <rosparam file="$(find torhando)/param/3dof_control.yaml" command="load"/>
+  <node 
+  name="controller_spawner" 
+  pkg="controller_manager" 
+  type="spawner" 
+  respawn="false"
+  output="screen" 
+  ns="/3dof" 
+  args="j1_position_controller 
+        j2_position_controller 
+        j3_position_controller 
+        joint_state_controller"/> -->
+  <!-- ======================================================================================== -->
 </launch>
