@@ -7,6 +7,14 @@
   <arg name="pitch" default="0"/>
   <arg name="yaw" default="3.14"/>
 
+  <!-- <arg name="gui" default="true"/>
+  <arg name="x" default="0"/>
+  <arg name="y" default="0"/>
+  <arg name="z" default="0"/>
+  <arg name="roll" default="0"/>
+  <arg name="pitch" default="0"/>
+  <arg name="yaw" default="0"/> -->
+
   <arg name="base"       value="kobuki"/> 
   <arg name="stacks"     value="hexagons"/> 
   <arg name="3d_sensor"  value="astra"/>

@@ -1,0 +1,66 @@
+<launch>
+  
+  <param
+    name="robot_description"
+    textfile="$(find torhando)/urdf/3dof.urdf" />
+
+  <node 
+  name="robot_state_publisher" 
+  pkg="robot_state_publisher" 
+  type="robot_state_publisher"
+  respawn="false" 
+  output="screen">
+    <remap from="/joint_states" to="/3dof/joint_states" />
+  </node>
+
+<!-- FOR DISPLAY -->
+  <!-- <node
+    name="joint_state_publisher_gui"
+    pkg="joint_state_publisher_gui"
+    type="joint_state_publisher_gui" />
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"/> -->
+
+<!-- FOR GAZEBO -->
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="true"/>
+  </include>
+
+  <node
+    name="tf_footprint_base"
+    pkg="tf"
+    type="static_transform_publisher"
+    args="0 0 0 0 0 0 base_link base_footprint 40" />
+
+  <!-- load pid_gains for /gazebo_ros_control -->
+  <rosparam file="$(find torhando)/param/gazebo_ros_control.yaml" command="load"/>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find torhando)/param/3dof_control.yaml" command="load"/>
+
+  <!-- spawn the model -->
+  <node 
+  name="spawn_gazebo_model" 
+  pkg="gazebo_ros" 
+  type="spawn_model" 
+  args="-urdf -param robot_description -model 3dof -x 0 -y 0 -z 0"
+  respawn="false" 
+  output="screen" />
+
+  <!-- load the controllers -->
+  <node 
+  name="controller_spawner" 
+  pkg="controller_manager" 
+  type="spawner" 
+  respawn="false"
+  output="screen" 
+  ns="/3dof" 
+  args="j1_position_controller 
+        j2_position_controller 
+        j3_position_controller 
+        joint_state_controller"/>
+
+</launch>
