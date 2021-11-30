@@ -1,14 +1,4 @@
-
-## 🚀 About Me
-Mohammed Aman K.S
-
-Mechatronics Student
-
-Manipal Institute of Technology
-
-Robotics Mini Project 
-
-
+ 
 # Gripper Construction
 
 A gripper is a device that enables the robot to pick and 
