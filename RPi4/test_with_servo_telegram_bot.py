@@ -6,14 +6,19 @@ import time
 from time import sleep
 
 # Use Board pin numbering
-GPIO.setmode(GPIO.BOARD)      
+GPIO.setmode(GPIO.BOARD)
+
+#Variable:
 servoPin = 12
+
 #setup of servo:
 GPIO.setup(servoPin, GPIO.OUT)
 
 
+
 # Getting date and time
-now = datetime.datetime.now() 
+now = datetime.datetime.now()
+
 
 def handle(msg):
     # Receiving the message from telegram
@@ -32,39 +37,32 @@ def handle(msg):
     elif command == '/date':
         bot.sendMessage(chat_id, str("Date: ") + str(now.day) + str("/") + str(now.month) + str("/") + str(now.year))
     elif command == '/drop':
-        #start;
+        #pwm setup:
+        p = GPIO.PWM(servoPin, 50)
+        p.start(0)
         
-
-        p = GPIO.PWM(servoPin, 50) # GPIO 17 for PWM with 50Hz
-        p.start(2.5) # Initialization
-        i=0
-        while i<2:
-            #dutycycle!
-    
-            p.ChangeDutyCycle(5)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(7.5)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(10)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(12.5)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(10)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(7.5)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(5)
-            time.sleep(0.5)
-            p.ChangeDutyCycle(2.5)
-            time.sleep(0.5)
+        def setAngle(angle):
             
-            #stop
-            i=i+1
-    #GPIO.cleanup()
+            duty = (angle/18) + 2
+            GPIO.output(servoPin, True)
+            p.ChangeDutyCycle(duty)
+            sleep(1)
+            GPIO.output(servoPin, False)
+            p.ChangeDutyCycle(duty) 
+        
+        # Set angle:
+        setAngle(35)
+        time.sleep(1)
+        setAngle(30)
+        time.sleep(1)
         #send a msg to bot after the task!
-        bot.sendMessage(chat_id, str('TaskDone!'))        
+        bot.sendMessage(chat_id, str('TaskDone!'))
+        
+    elif command == '/thankyou':
+        bot.sendMessage(chat_id, str('Your Welcome sir/mam!'))
+        
     else:
-        bot.sendMessage(chat_id, str('Thankyou!'))
+        bot.sendMessage(chat_id, str('Sorry I cannot recognise that!'))
         
         
 
@@ -77,4 +75,5 @@ MessageLoop(bot, handle).run_as_thread()
 print ('Listening....')
 
 while 1:
-    sleep(10) 
+    sleep(10)
+    
