@@ -56,12 +56,10 @@ Pic 2 <p align="center">
  </p>
  
 Pic 3 <p align="center">
-
  <img src="https://user-images.githubusercontent.com/93376324/143675605-7c720ab6-d332-47ae-a4b2-f3a8fc1f0f02.png" width=540>
  </p>
  
  Pic 4 <p align="center">
-
 <img src="https://user-images.githubusercontent.com/93376324/143675632-4b62c7e7-a871-459b-baa2-af35708cb41e.png" width=540>
  </p>
  
@@ -71,11 +69,11 @@ Pic 5 <p align="center">
  </p>
  
   
-Pic 6<p align="center">
+Pic 6 <p align="center">
 <img src="https://user-images.githubusercontent.com/93376324/143675654-58b304b8-2a52-4b66-a0da-1dfe253d5e42.png" width=540>
  </p>
   
-Pic 7<p align="center">
+Pic 7 <p align="center">
  <img src="https://user-images.githubusercontent.com/93376324/143675683-6cd62497-bd42-4db6-a58b-b3741c22e2ef.png" width=540>
  </p>
  
@@ -98,17 +96,23 @@ The process to covert fusion 360 model :
 
 Hence, when all parts are downloaded we can assemble them together.Refer to pic 9.
 
-Pic 9: ![Screenshot (33)](https://user-images.githubusercontent.com/93376324/143676135-ecadf6d3-f70c-4df8-8d1a-89db9c8abddf.png)
+Pic 9: <p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143676135-ecadf6d3-f70c-4df8-8d1a-89db9c8abddf.png" width=540>
+ </p>
 ## Result and Final Process
 Here we were able to complete the 3D print all parts and perform a sucessful pick and hold function.
 
 The image below shows some parts print using 3D printer:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143676382-2f469dc1-7f59-4abb-80e8-999ac5aa4d2a.jpg" width=540>
+ </p>
 
-![b6cd93a3-795f-4d09-b2e4-137fd0b0af3b](https://user-images.githubusercontent.com/93376324/143676382-2f469dc1-7f59-4abb-80e8-999ac5aa4d2a.jpg)
 
 Partial Assembly of the Gripper:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143676403-bf0db80d-5e4a-4bf0-b1f4-20bd18068334.jpg)" width=540>
+ </p>
 
-![c3d860f8-0b0e-438a-8595-f5505ff9d452](https://user-images.githubusercontent.com/93376324/143676403-bf0db80d-5e4a-4bf0-b1f4-20bd18068334.jpg)
 
 
 
