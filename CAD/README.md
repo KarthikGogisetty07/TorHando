@@ -47,24 +47,43 @@ We need some sort of mechanism to connect the gripper to the manipulator.Refer t
 Another important part is the servo motor for the gripper to function properly.
 Refer to pic 8.
 ## Images
+ Pic 1  <p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143675529-d645806d-ecbf-4131-8293-00b3820c01b9.png" width=540>
+ </p>
+ 
+Pic 2 <p align="center">
+ <img src="https://user-images.githubusercontent.com/93376324/143675592-70bb20b3-05dd-4ca3-8486-9c2a5affc932.png" width=540>
+ </p>
+ 
+Pic 3 <p align="center">
 
+ <img src="https://user-images.githubusercontent.com/93376324/143675605-7c720ab6-d332-47ae-a4b2-f3a8fc1f0f02.png" width=540>
+ </p>
+ 
+ Pic 4 <p align="center">
 
-
-Pic 1 ![Screenshot (23)](https://user-images.githubusercontent.com/93376324/143675529-d645806d-ecbf-4131-8293-00b3820c01b9.png)
-
-Pic 2 ![Screenshot (26)](https://user-images.githubusercontent.com/93376324/143675592-70bb20b3-05dd-4ca3-8486-9c2a5affc932.png)
-
-Pic 3 ![Screenshot (27)](https://user-images.githubusercontent.com/93376324/143675605-7c720ab6-d332-47ae-a4b2-f3a8fc1f0f02.png)
-
-Pic 4 ![Screenshot (24)](https://user-images.githubusercontent.com/93376324/143675632-4b62c7e7-a871-459b-baa2-af35708cb41e.png)
-
-Pic 5 ![Screenshot (29)](https://user-images.githubusercontent.com/93376324/143675648-e80827ae-418e-4a43-ae9c-97f78ad8981e.png)
-
-Pic 6 ![Screenshot (30)](https://user-images.githubusercontent.com/93376324/143675654-58b304b8-2a52-4b66-a0da-1dfe253d5e42.png)
-
-Pic 7 ![Screenshot (31)](https://user-images.githubusercontent.com/93376324/143675683-6cd62497-bd42-4db6-a58b-b3741c22e2ef.png)
-
-Pic 8 ![Screenshot (32)](https://user-images.githubusercontent.com/93376324/143675700-c35c3fd3-a952-4450-9d6b-979f45e2aa03.png)
+<img src="https://user-images.githubusercontent.com/93376324/143675632-4b62c7e7-a871-459b-baa2-af35708cb41e.png" width=540>
+ </p>
+ 
+ 
+Pic 5 <p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143675648-e80827ae-418e-4a43-ae9c-97f78ad8981e.png" width=540>
+ </p>
+ 
+  
+Pic 6<p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143675654-58b304b8-2a52-4b66-a0da-1dfe253d5e42.png" width=540>
+ </p>
+  
+Pic 7<p align="center">
+ <img src="https://user-images.githubusercontent.com/93376324/143675683-6cd62497-bd42-4db6-a58b-b3741c22e2ef.png" width=540>
+ </p>
+ 
+  
+Pic 8 <p align="center">
+<img src="https://user-images.githubusercontent.com/93376324/143675700-c35c3fd3-a952-4450-9d6b-979f45e2aa03.png" width=540>
+ </p>
+ 
 
 ## Assembly
 Here we cearted all the parts using 3D printer.
