@@ -120,5 +120,9 @@ Partial Assembly of the Gripper:
 
 ![c3d860f8-0b0e-438a-8595-f5505ff9d452](https://user-images.githubusercontent.com/93376324/143676403-bf0db80d-5e4a-4bf0-b1f4-20bd18068334.jpg)
 
+Complete Assembly of the Gripper:
+
+![complete assembly](https://user-images.githubusercontent.com/93376324/144376723-2f0af580-ceed-4445-b0cc-abcc3b9d547b.jpeg)
+
 
 
